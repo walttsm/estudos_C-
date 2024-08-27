@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\walter.marinho\\.nuget\\packages\\": {}
+    "C:\\Users\\waltm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\study\\c#\\c#.csproj",
+      "projectUniqueName": "C:\\Users\\waltm\\OneDrive\\Documentos\\estudo c#\\estudos_C_sharp\\c#.csproj",
       "projectName": "c#",
-      "projectPath": "D:\\study\\c#\\c#.csproj",
-      "packagesPath": "C:\\Users\\walter.marinho\\.nuget\\packages\\",
-      "outputPath": "D:\\study\\c#\\obj\\",
+      "projectPath": "C:\\Users\\waltm\\OneDrive\\Documentos\\estudo c#\\estudos_C_sharp\\c#.csproj",
+      "packagesPath": "C:\\Users\\waltm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\waltm\\OneDrive\\Documentos\\estudo c#\\estudos_C_sharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\walter.marinho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\waltm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

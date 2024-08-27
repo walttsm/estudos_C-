@@ -8,22 +8,23 @@ namespace Aula38
     {
         static void Main(string[] args)
         {
+            Triangulo x, y;
 
-            double xA, xB, xC, yA, yB, yC;
+            x = new Triangulo();
+            y = new Triangulo();
+
             Console.WriteLine("Entre as medidas do triangulo X:");
-            xA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            xC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Entre as medida do triangulo Y:");
-            yA = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yB = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            yC = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double p = (double)(xA + xB + xC) / 2;
-            double areaX = (double)Math.Sqrt(p * (p - xA) * (p - xB) * (p - xC));
-            p = (double)(yA + yB + yC) / 2;
-            double areaY = (double)Math.Sqrt(p * (p - yA) * (p - yB) * (p - yC));
+            double areaX = (double)x.Area();
+            double areaY = (double)y.Area();
             Console.WriteLine("A area do triangulo X = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine("A area do triangulo Y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
             if (areaX > areaY)
