@@ -16,20 +16,20 @@ class Program
         p = new Produto(nome, preco, quantidade);
 
         Console.WriteLine();
-        Console.WriteLine("Dados do produto: " + "nome = " + p.Nome + ", preco = " + p.Preco.ToString("F2", CultureInfo.InvariantCulture) + ", quantidade = " + p.Quantidade);
+        Console.WriteLine("Dados do produto: " + p);
 
         Console.WriteLine();
         Console.Write("Digite o numero de produtos a ser adicionado ao estoque: ");
         int qte = int.Parse(Console.ReadLine());
         p.AdicionarProdutos(qte);
         Console.WriteLine();
-        Console.WriteLine("Dados atualizados: " + "nome = " + p.Nome + ", preco = " + p.Preco.ToString("F2", CultureInfo.InvariantCulture) + ", quantidade = " + p.Quantidade);
+        Console.WriteLine("Dados atualizados: " + p);
 
         Console.WriteLine();
         Console.Write("Digite o numero de produtos a ser removido do estoque: ");
         qte = int.Parse(Console.ReadLine());
         p.RemoverProdutos(qte);
         Console.WriteLine();
-        Console.WriteLine("Dados atualizados: " + "nome = " + p.Nome + ", preco = " + p.Preco.ToString("F2", CultureInfo.InvariantCulture) + ", quantidade = " + p.Quantidade);
+        Console.WriteLine("Dados atualizados: " + p);
     }
 }

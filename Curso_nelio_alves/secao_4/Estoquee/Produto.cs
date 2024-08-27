@@ -1,3 +1,5 @@
+using System.Globalization;
+
 class Produto
 {
     public string Nome { get; set; }
@@ -24,5 +26,10 @@ class Produto
     public void RemoverProdutos(int quantidade)
     {
         Quantidade -= quantidade;
+    }
+
+    public override string ToString()
+    {
+        return "nome = " + Nome + ", preco = $" + Preco.ToString("F2", CultureInfo.InvariantCulture) + ", quantidade = " + Quantidade + " unidades, Total: $" + ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
     }
 }
