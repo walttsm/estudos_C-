@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c#", "c#.csproj", "{D0A1C7AB-9CF8-4BA0-A367-53520FDFA7E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Curso_nelio_alves", "Curso_nelio_alves", "{B5B3DBCC-ACD3-4C35-8A42-8BB48124FF61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "secao_4", "secao_4", "{4983CD2E-2103-4E55-B5B0-B70E3106E152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque", "Curso_nelio_alves\secao_4\Estoque\Estoque.csproj", "{C9FF4DA3-8D87-4A83-BBE9-31849E286B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +21,19 @@ Global
 		{D0A1C7AB-9CF8-4BA0-A367-53520FDFA7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A1C7AB-9CF8-4BA0-A367-53520FDFA7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A1C7AB-9CF8-4BA0-A367-53520FDFA7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FF4DA3-8D87-4A83-BBE9-31849E286B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FF4DA3-8D87-4A83-BBE9-31849E286B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FF4DA3-8D87-4A83-BBE9-31849E286B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FF4DA3-8D87-4A83-BBE9-31849E286B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4F052A6-12A6-43F9-B316-7D77BF26D4E1}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4983CD2E-2103-4E55-B5B0-B70E3106E152} = {B5B3DBCC-ACD3-4C35-8A42-8BB48124FF61}
+		{C9FF4DA3-8D87-4A83-BBE9-31849E286B36} = {4983CD2E-2103-4E55-B5B0-B70E3106E152}
 	EndGlobalSection
 EndGlobal
